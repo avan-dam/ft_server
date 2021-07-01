@@ -50,7 +50,7 @@ RUN rm -rf phpMyAdmin-5.0.1-english
 
 
 #send mail
-RUN echo "127.0.0.1 localhost localhost.localdomain" >> /etc/hosts
+# RUN echo "127.0.0.1 localhost localhost.localdomain" >> /etc/hosts
 
 # increase limits
 RUN cd /etc/php/7.3/fpm && sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 10M/g' php.ini && \
