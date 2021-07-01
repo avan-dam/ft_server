@@ -22,7 +22,7 @@ To stop all containers, images, and cache run the following command:
 docker system prune -a
 ```
 
-**To Access: **
+**To Access:**
 
 To go to wordpress put this address in browser
 ```
@@ -31,7 +31,9 @@ https://localhost
 <img width="942" alt="Screenshot 2021-07-01 at 15 01 30" src="https://user-images.githubusercontent.com/61982496/124129519-24056580-da7e-11eb-966e-5f7994ae56a5.png">
 
 To go to php put this address in browser
+
 username: username
+
 password: password
 
 ```
